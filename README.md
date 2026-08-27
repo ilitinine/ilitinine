@@ -1,8 +1,8 @@
 ## Ibrahim Litinine
 
 I am Ibrahim Litinine and I like to think of myself as a website growth manager.
-Content marketing is the job I was hired to do and it is still the centre of
-everything, but the title stopped covering the work somewhere along the way.
+Content marketing is the job I typically get hired to do and it is still the
+centre of everything, but the title stopped covering the work somewhere along the way.
 
 In practice that means most of my week goes into blog posts. Most SEO content
 chases search volume and reaches people who are only reading. I write for the
@@ -20,8 +20,10 @@ The same curiosity runs into the tools I write about. I have designed an n8n
 workflow and I work in Clay, because writing well about GTM tooling means
 understanding what it actually feels like to build in it.
 
-Working with AI is what makes that range possible for one person. It is the
-difference between writing about a page and shipping the page.
+Working with AI is what makes that range possible for one person. I can take a
+page that already exists and shape it into whatever we agreed the site should
+be, which is normally the kind of work that waits on a developer. Teams I work
+with do not need one on staff for the website to keep moving.
 
 I do this for [Nebor](https://nebor.ai), a GTM infrastructure agency in
 Amsterdam, while working from Kigali in Rwanda. French and English are both
