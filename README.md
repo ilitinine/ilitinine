@@ -1,74 +1,93 @@
 ## Ibrahim Litinine
 
-I build go-to-market systems: the outbound workflows, the data plumbing behind
-them, and the sites and content that explain them. Most of my work is one thing
-end to end, design through to the code that ships it.
+B2B content marketer. I run the content function at
+[Nebor](https://nebor.ai), a GTM infrastructure agency in Amsterdam — strategy,
+writing, the visual system, and publishing. Based in Kigali, Rwanda, working
+remotely. Around six years in B2B content, most of it freelance.
+
+The short version: I write for practitioners who have been sold to before and
+can tell when a post is padding. That means bottom-of-funnel content built on
+the reader's actual problem rather than a keyword, and a standard I can enforce
+rather than one I hope to remember.
 
 ---
 
-### What I work with
+### What I do
 
-**GTM & outbound** · Clay · HubSpot · Salesforce · Apollo · Instantly ·
-Smartlead · Lemlist · HeyReach · PhantomBuster · LinkedIn Sales Navigator
+**Editorial strategy and long-form writing.** Pain-point SEO aimed at
+high-intent buyers: alternatives and comparison pieces, jobs-to-be-done guides,
+case studies. Pillar-and-cluster planning built on Search Console and Ahrefs
+data rather than keyword volume alone.
 
-**Automation** · n8n · Make · Zapier · Airtable
+**Turning a house style into something executable.** The editorial standard is
+not a document people are asked to remember. It is a set of rules that runs:
+banned constructions, AI-writing tells to strip, sentence and structural
+patterns, a self-check that fails a draft before I do. I used it to edit 169 GTM
+glossary entries to one voice.
 
-**Build** · Framer (CMS, localization, custom embeds) · Webflow · JavaScript ·
-Python · Node
+**The visual system.** In-post graphics, infographics and featured images run on
+a locked design system — colour and type tokens, a standing diagram pattern,
+fixed cover templates — so covers and diagrams look like one publication instead
+of one-offs.
 
-**AI** · Claude / Anthropic API · OpenAI (image generation pipelines) ·
-Claude Code and Agent Skills
+**Publishing and site work.** I publish into the Framer CMS myself: metadata,
+internal linking, related articles, redirects. I ran the Utmost → Nebor domain
+migration off Search Console data, with a readiness threshold per URL rather
+than a calendar date.
+
+**Tool-directory content and partnerships.** 68 vendor pages written against a
+consistent evaluation standard, and the partner placements that sit alongside
+them.
 
 ---
 
-### Things I have built
+### Selected work
 
-**Thirty interactive workflow charts, in a CMS**
-Each workflow on [nebor.ai](https://nebor.ai) renders a clickable diagram: a
-step rail, a detail panel, tool tooltips, a walkthrough that steps card by
-card. Each ships as a **self-contained embed** — every icon, font fallback and
-image inlined — because the host renders it inside a sandboxed iframe with no
-external requests. Bilingual EN/NL from one source, picking its language from
-the URL. One template, thirty items, a build that regenerates all of them, and
-**ten automated gates** that run before anything ships.
+Case studies I wrote for Nebor. The results are the agency's client outcomes;
+my part was the interviews, the structure and the writing.
 
-**A build that refuses to ship a known failure**
-The trickiest bug on that project was invisible: the CMS flattens every newline
-to a space, so a surviving `//` comment eats the rest of the script and leaves
-a program that *compiles clean and renders nothing*. `node --check` cannot see
-it. The build now counts line comments and fails on them, so it cannot happen
-twice.
+- **Dymaxa** — Austrian cleantech. €12M pipeline, 84 prospects engaged, 14
+  clients converted, meetings with all ten major European trailer OEMs.
+- **ExpoGenie** — event-management SaaS. 55 qualified leads in three months,
+  30% of total lead inflow, first responses inside 72 hours.
+- **GroeiLeaders** — Dutch outsourcing agency, white-label across five portfolio
+  companies. Response rates from ~1% to 2.5–30%, 20+ hours saved per client per
+  week.
 
-**Content at volume, with a quality bar that is executable**
-169 GTM glossary entries edited to a documented voice standard, plus long-form
-articles. The editorial rules are not a style guide anyone has to remember:
-they are a script that fails the build.
+Also: 169 GTM glossary entries, the Nebor blog, and guest posts on Salesforge
+and GetSales.io.
 
-**Image pipelines**
-75 article image projects and roughly 4,200 generated images through a
-repeatable OpenAI pipeline: a locked visual language, cost controls, and
-quality checks, rather than one-off prompting.
+---
 
-**Codified process as tooling**
-Nine [Agent Skills](https://docs.claude.com/en/docs/claude-code/skills) that
-capture how each kind of work gets done — article writing, editorial passes,
-workflow page design and copy, image and badge generation — so the standard is
-reproducible instead of living in my head.
+### Tools
+
+**Daily** · Claude · Google Docs and Sheets · Framer CMS · Google Drive
+
+**Regularly** · Ahrefs · Google Search Console · ClickUp · Excel
+
+**Occasionally** · Adobe Premiere Pro and Audition, for film and audio theatre
+work outside content
+
+I write about the GTM stack — Clay, n8n, HubSpot, Instantly, HeyReach, RB2B and
+others — at working depth, across 68 tool pages and the workflow content. That
+is editorial literacy in those tools, not delivery experience in them, and I
+would rather say so than blur it.
 
 ---
 
 ### How I work
 
-- **Verify, don't assert.** If I say it works, I measured it. Most of the bugs
-  worth catching were the ones that looked fine.
-- **Make the standard executable.** A rule in a document gets forgotten; a gate
-  in the build does not.
-- **Fix the cause.** The symptom is usually a layer above where the problem is.
-- **Say what I skipped.** Partial work reported as finished costs more than the
-  work saved.
+- **The standard is executable.** A rule in a style guide gets forgotten. A rule
+  in a check does not.
+- **Intent over keywords.** The target is the reader's problem. The pain comes
+  before the solution.
+- **Every sentence earns its place.** How does this add value, why does it need
+  saying, why now.
+- **Plain English.** Conversational but authoritative — explaining something to a
+  smart colleague, not performing expertise.
 
 ---
 
-Most repositories here are private client work. Happy to walk through any of it.
+**Languages** English (professional) · French (fluent)
 
-📫 [nebor.ai](https://nebor.ai)
+📫 [LinkedIn](https://www.linkedin.com/in/ibrahim-litinine/) · [nebor.ai](https://nebor.ai)
